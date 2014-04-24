@@ -1,0 +1,7 @@
+To run this web app you need to setup the database first.
+
+Steps:
+Import yabber.sql file into your php myadmin/mysql database.  (yabber.sql file creates table in yabber database schema)
+Setup datbase authentication variables in model/dbconfig.php file
+
+Get Yabber running. (index.php)
