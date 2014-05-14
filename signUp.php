@@ -1,3 +1,13 @@
+<?php 
+session_start();
+if (isset( $_SESSION['username'])) {
+
+
+					$url="index.php";
+                     header('Location: '.$url);
+}
+
+?>
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
